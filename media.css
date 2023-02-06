@@ -1,0 +1,8 @@
+@media(max-width:768px){
+    .desktop-nav ul{
+        display:none;
+    }
+    .desktop-nav .burger-btn{
+        display:flex;
+    }
+}
