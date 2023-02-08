@@ -1,8 +1,19 @@
+
+@media(max-width:968px){
+    header{
+        background-position: center;
+    }
+}
 @media(max-width:768px){
     .desktop-nav ul{
         display:none;
     }
     .desktop-nav .burger-btn{
         display:flex;
+    }
+}
+@media(max-width:576px){
+    header h1{
+        font-size: 3rem;
     }
 }
