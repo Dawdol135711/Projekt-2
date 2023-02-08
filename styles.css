@@ -11,7 +11,7 @@ header {
 	position: relative;
 	height: 100vh;
 	width: 100%;
-	background-image: url(.../img/athlete-bike-black-and-white-cycle-260409.jpg);
+	background-image: url(/img/athlete-bike-black-and-white-cycle-260409.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	display: flex;
