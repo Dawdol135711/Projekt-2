@@ -65,11 +65,7 @@ header h1 {
 	align-items: center;
 	display: none;
 }
-#mobile-nav .logo {
-	position: relative;
-	margin: 1.5rem 0;
-	left: -3rem;
-}
+
 #mobile-nav ul {
 	display: flex;
 	flex-direction: column;
