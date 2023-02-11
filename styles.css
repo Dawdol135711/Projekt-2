@@ -178,7 +178,7 @@ h2{
 }
 
 .membership{
-	background-image: url('/img/image_boxer.jpg');
+	background-image: url('img/image_boxer.jpg');
 	background-size: cover;
 	color: var(--color-1);
 }
