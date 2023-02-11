@@ -6,7 +6,8 @@
 html {
 	--color-1: rgb(255, 255, 255);
 	--color-2: rgb(0, 0, 0);
-	--color-3:rgb(120,120,120)
+	--color-3:rgb(120,120,120);
+	--color-4:rgb(200,200,200);
 }
 header {
 	position: relative;
@@ -174,4 +175,44 @@ h2{
 	width:500px;
 	text-align: center;
 	padding: 0 50px;
+}
+
+.membership{
+	background-image: url('/img/image_boxer.jpg');
+	background-size: cover;
+	color: var(--color-1);
+}
+.membership .container{
+	max-width:1200px;
+	margin:0 auto;
+}
+.membership h2{
+	padding:3rem 3rem;
+	text-align: left;
+}
+.membership p{
+	font-family: 'open-sans',sans-serif;	
+	letter-spacing: 1px;
+	font-size: 1rem;
+	line-height: 1.6;	
+}
+.m_text-wrapper{
+	display:flex;
+	width:60%;
+	margin: 2rem 0 1rem 6rem;
+}
+.m_text-wrapper span{
+	font-size: 4rem;
+	margin-right:2.5rem;
+}
+.membership a{
+	display:inline-block;
+	padding:0.75rem 1.75rem;
+	margin: 2rem 0 3rem 3rem;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 1rem;
+	font-family: 'roboto',sans-serif;
+	color:var(--color-2);
+	background-color: var(--color-1);
 }
