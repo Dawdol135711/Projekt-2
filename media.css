@@ -1,61 +1,62 @@
-@media(max-width:999px){
-   
+@media (max-width: 999px) {
 }
-@media(max-width:968px){
-    header{
-        background-position: center;
-    }
+@media (max-width: 968px) {
+	header {
+		background-position: center;
+	}
 }
-@media(max-width:768px){
-    .desktop-nav ul{
-        display:none;
-    }
-    .desktop-nav .burger-btn{
-        display:flex;
-    }
+@media (max-width: 768px) {
+	.desktop-nav ul {
+		display: none;
+	}
+	.desktop-nav .burger-btn {
+		display: flex;
+	}
 }
-@media(max-width:576px){
-    header h1{
-        font-size: 3rem;
-    }
-    .text-wrapper{
-        width:calc(100% - 40px);
-        padding: 0 20px;
-        margin: 0 auto;
-    }
-    .text-wrapper h3, .text-wrapper p{
-        text-align: center;
-    }
-    .m_text-wrapper{
-        margin:auto;
-        width:85%
-    }
-    .m_text-wrapper span{
-        font-size: 3rem;
-        margin-right:0.5rem;
-    }
+@media (max-width: 576px) {
+	header h1 {
+		font-size: 3rem;
+	}
+	.text-wrapper {
+		width: calc(100% - 40px);
+		padding: 0 20px;
+		margin: 0 auto;
+	}
+	.text-wrapper h3,
+	.text-wrapper p {
+		text-align: center;
+	}
+	.m_text-wrapper {
+		margin: auto;
+		width: 85%;
+	}
+	.m_text-wrapper span {
+		font-size: 3rem;
+		margin-right: 0.5rem;
+	}
 }
-@media(max-width:452px){
-    .trainer img{
-        width:300px;
-        height: 300px;
-    }
-    .membership a{
-        font-size: 0.75rem;
-        padding:0.5rem 1.25rem;
-    }
+@media (max-width: 452px) {
+	.trainer img {
+		width: 300px;
+		height: 300px;
+	}
+	.membership a {
+		font-size: 0.75rem;
+		padding: 0.5rem 1.25rem;
+	}
 }
-@media(max-width:380px){
-    .trainers h2,.membership h2{
-        font-size: 2rem;
-    }
-    .desktop-nav .logo{
-        margin-left: 20px;
-    }
+@media (max-width: 380px) {
+	.trainers h2,
+	.membership h2 {
+		font-size: 2rem;
+	}
+	.desktop-nav .logo {
+		margin-left: 20px;
+	}
 }
-@media(max-width:320px){
-    .trainer img{
-        width: 200px;
-        height: 200px;
-    }
+@media (max-width: 320px) {
+	.trainer img {
+		width: 200px;
+		height: 200px;
+	}
 }
