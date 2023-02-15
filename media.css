@@ -4,6 +4,23 @@
 	header {
 		background-position: center;
 	}
+	.about-us strong{
+		font-size: 1rem;
+	}
+	.about-us h2{
+		font-size: 2rem;
+	}
+	.about-us p{
+		font-size: 0.75rem;
+	}
+	.one{
+		font-size: 3.5rem;
+	}
+	.about-us img {
+		width:80%;
+		min-width:80px;
+		height: 270px;
+	}
 }
 @media (max-width: 768px) {
 	.desktop-nav ul {
@@ -11,6 +28,28 @@
 	}
 	.desktop-nav .burger-btn {
 		display: flex;
+	}
+	.about-us{
+		flex-direction:column;
+	}
+	.about-us img {
+		margin: 2rem auto;
+		width: 170px;
+		height: 200px;
+	}
+	.about-us strong{
+		font-size: 1.5rem;
+		padding-top: 2rem;
+
+	}
+	.about-us p{
+		padding: 1.5rem 0;
+	}
+	.one{
+		display:flex;
+		justify-content: center;
+		align-items: center;
+		padding:5rem 0;
 	}
 }
 @media (max-width: 576px) {
