@@ -221,6 +221,7 @@ h2 {
 .about-us > * {
 	min-width: 200px;
 	height: 80vh;
+	max-height: 600px;
 }
 .about-us .img {
 	flex: 1 1 35%;
@@ -271,4 +272,14 @@ h2 {
 	font-size: 4.5rem;
 	font-weight: bold;
 	padding: 8rem 0 0 1.5rem;
+}
+.opinion{
+	height: 80vh;
+	background-image: url(img/pexels-photo-3688303.jpeg);
+	background-size: cover;
+	background-position: -20% 50%;
+}
+.opinion .wrapper{
+	width:60%;
+	color:var(--color-1);
 }
