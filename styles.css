@@ -280,6 +280,19 @@ h2 {
 	background-position: -20% 50%;
 }
 .opinion .wrapper{
-	width:60%;
+	display:flex;
+	flex-direction: column;
+	width:600px;
+	padding:5rem 4rem;
 	color:var(--color-1);
+}
+.opinion  h2{
+	margin: 0 0 4rem 0;
+	text-align: left;
+}
+.opinion p{
+font-family: 'roboto',sans-serif;
+font-size: 1.3rem;
+line-height: 1.6;
+font-weight: 300;
 }
