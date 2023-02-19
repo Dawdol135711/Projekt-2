@@ -21,6 +21,9 @@
 		min-width:80px;
 		height: 270px;
 	}
+	.opinion{
+		background-position: center;
+	}
 }
 @media (max-width: 768px) {
 	.desktop-nav ul {
@@ -51,6 +54,11 @@
 		align-items: center;
 		padding:5rem 0;
 	}
+	.opinion .wrapper{
+		width:90%;
+		margin: 0 auto;
+		padding:1rem 2rem;
+	}
 }
 @media (max-width: 576px) {
 	header h1 {
@@ -73,6 +81,12 @@
 		font-size: 3rem;
 		margin-right: 0.5rem;
 	}
+	.opinion  h2{
+		font-size: 2.5rem;	
+	}
+	.opinion p{
+		font-size: 1.325rem;
+	}
 }
 @media (max-width: 452px) {
 	.trainer img {
@@ -83,6 +97,13 @@
 		font-size: 0.75rem;
 		padding: 0.5rem 1.25rem;
 	}
+	.opinion p{
+		font-size: 1rem;
+	}
+	.opinion a{			
+			font-size: 1.125rem;
+			padding: 0.75rem 1.5rem;
+	}
 }
 @media (max-width: 380px) {
 	.trainers h2,
@@ -92,10 +113,16 @@
 	.desktop-nav .logo {
 		margin-left: 20px;
 	}
+	.opinion h2{
+		font-size: 2rem;
+	}
 }
 @media (max-width: 320px) {
 	.trainer img {
 		width: 200px;
 		height: 200px;
+	}
+	.opinion h2{
+		margin:0 0 0.5rem 0;
 	}
 }

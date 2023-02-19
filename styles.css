@@ -237,6 +237,7 @@ h2 {
 	flex: 1 2 50%;
 	color: var(--color-1);
 	background-color: var(--color-2);
+	overflow-y:scroll;
 }
 .about-us strong {
 	display: block;
@@ -273,56 +274,54 @@ h2 {
 	font-weight: bold;
 	padding: 8rem 0 0 1.5rem;
 }
-.opinion{
-	height: 80vh;
+.opinion {
+	min-height: 80vh;
 	background-image: url(img/pexels-photo-3688303.jpeg);
 	background-position: 25% 47%;
+	padding-bottom: 1rem;
 }
-.opinion .wrapper{
-	display:flex;
+.opinion .wrapper {
+	display: flex;
 	flex-direction: column;
-	width:700px;
-	padding:5rem 0 1rem 8rem;
-	color:var(--color-1);
-	position:relative;
+	width: 700px;
+	padding: 5rem 0 1rem 8rem;
+	color: var(--color-1);
+	position: relative;
 }
-.opinion  h2{
+.opinion h2 {
 	margin: 0 0 4rem 0;
 	text-align: left;
-	
 }
-.opinion p{
-font-family: 'roboto',sans-serif;
-font-size: 1.5rem;
-line-height: 1.6;
-font-weight: 300;
+.opinion p {
+	font-family: "roboto", sans-serif;
+	font-size: 1.5rem;
+	line-height: 1.6;
+	font-weight: 300;
 }
-.quote i{
-	position:absolute;
-	top:10rem;
+.quote i {
+	position: absolute;
+	top: 10rem;
 	font-size: 10rem;
-	opacity:0.5;
+	opacity: 0.5;
 }
-.opinion p:nth-last-child(2)::after{
-	content:"Nick Cave";
-	font-family: 'roboto', sans-serif;
+.opinion p:nth-last-child(2)::after {
+	content: "Nick Cave";
+	font-family: "roboto", sans-serif;
 	font-weight: bold;
-	display:block;
+	display: block;
 	font-size: 1.25rem;
-	padding:1rem 0;
+	padding: 1rem 0;
 }
-.opinion a{
+.opinion a {
 	text-transform: capitalize;
-	color:var(--color-1);
+	color: var(--color-1);
 	text-decoration: none;
 	font-size: 1.5rem;
-	font-family: 'roboto',sans-serif;
-	border:2px solid var(--color-1);
-	display:block;
+	font-family: "roboto", sans-serif;
+	border: 2px solid var(--color-1);
+	display: block;
 	position: relative;
-	width:fit-content;
-	font-weight: bold;;
+	width: fit-content;
+	font-weight: bold;
 	padding: 1rem 2rem;
-	
-
 }
