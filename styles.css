@@ -284,21 +284,12 @@ h2 {
 	width:700px;
 	padding:5rem 0 1rem 8rem;
 	color:var(--color-1);
+	position:relative;
 }
 .opinion  h2{
 	margin: 0 0 4rem 0;
 	text-align: left;
-	position:relative;
-
-}
-.opinion h2::before{
-	content:'"';
-	font-family:'news cycle';
-	font-size: 40rem;
-	line-height: 0.8;
-	position:absolute;
-	top:0.1rem;
-	opacity:0.5;
+	
 }
 .opinion p{
 font-family: 'roboto',sans-serif;
@@ -306,7 +297,13 @@ font-size: 1.5rem;
 line-height: 1.6;
 font-weight: 300;
 }
-.opinion p::after{
+.quote i{
+	position:absolute;
+	top:10rem;
+	font-size: 10rem;
+	opacity:0.5;
+}
+.opinion p:nth-last-child(2)::after{
 	content:"Nick Cave";
 	font-family: 'roboto', sans-serif;
 	font-weight: bold;
