@@ -1,28 +1,54 @@
-@media (max-width: 999px) {
+@media (max-width: 1250px) {
+	.goals img {
+		height: 35rem;
+	}
+}
+@media (max-width: 1130px) {
+	.goals img {
+		height: 30rem;
+	}
+	.goal p {
+		padding-bottom:1rem;
+	}
 }
 @media (max-width: 968px) {
 	header {
 		background-position: center;
 	}
-	.about-us strong{
+	.about-us strong {
 		font-size: 1rem;
 	}
-	.about-us h2{
+	.about-us h2 {
 		font-size: 2rem;
 	}
-	.about-us p{
+	.about-us p {
 		font-size: 0.75rem;
 	}
-	.one{
+	.one {
 		font-size: 3.5rem;
 	}
 	.about-us img {
-		width:80%;
-		min-width:80px;
+		width: 80%;
+		min-width: 80px;
 		height: 270px;
 	}
-	.opinion{
+	.opinion {
 		background-position: center;
+	}
+	.goals{
+
+		flex-direction: column;
+		align-items: center;
+		padding-top:2rem;
+	}
+	.goals p, .goals h3 {
+		text-align: center;
+		padding:1rem;
+		margin:0;
+		width:100%;
+	}
+	.goals p{
+		font-size: 1.4rem;
 	}
 }
 @media (max-width: 768px) {
@@ -32,32 +58,31 @@
 	.desktop-nav .burger-btn {
 		display: flex;
 	}
-	.about-us{
-		flex-direction:column;
+	.about-us {
+		flex-direction: column;
 	}
 	.about-us img {
 		margin: 2rem auto;
 		width: 170px;
 		height: 200px;
 	}
-	.about-us strong{
+	.about-us strong {
 		font-size: 1.5rem;
 		padding-top: 2rem;
-
 	}
-	.about-us p{
+	.about-us p {
 		padding: 1.5rem 0;
 	}
-	.one{
-		display:flex;
+	.one {
+		display: flex;
 		justify-content: center;
 		align-items: center;
-		padding:5rem 0;
+		padding: 5rem 0;
 	}
-	.opinion .wrapper{
-		width:90%;
+	.opinion .wrapper {
+		width: 90%;
 		margin: 0 auto;
-		padding:1rem 2rem;
+		padding: 1rem 2rem;
 	}
 }
 @media (max-width: 576px) {
@@ -81,10 +106,10 @@
 		font-size: 3rem;
 		margin-right: 0.5rem;
 	}
-	.opinion  h2{
-		font-size: 2.5rem;	
+	.opinion h2 {
+		font-size: 2.5rem;
 	}
-	.opinion p{
+	.opinion p {
 		font-size: 1.325rem;
 	}
 }
@@ -97,12 +122,21 @@
 		font-size: 0.75rem;
 		padding: 0.5rem 1.25rem;
 	}
-	.opinion p{
+	.opinion p {
 		font-size: 1rem;
 	}
-	.opinion a{			
-			font-size: 1.125rem;
-			padding: 0.75rem 1.5rem;
+	.opinion a {
+		font-size: 1.125rem;
+		padding: 0.75rem 1.5rem;
+	}
+	.goals img {
+		height: 30rem;
+	}
+	.goals h3{
+		font-size: 2rem;
+	}
+	.goals p{
+		font-size: 1.225rem;
 	}
 }
 @media (max-width: 380px) {
@@ -113,8 +147,11 @@
 	.desktop-nav .logo {
 		margin-left: 20px;
 	}
-	.opinion h2{
+	.opinion h2 {
 		font-size: 2rem;
+	}
+	.goals img {
+		height: 25rem;
 	}
 }
 @media (max-width: 320px) {
@@ -122,7 +159,10 @@
 		width: 200px;
 		height: 200px;
 	}
-	.opinion h2{
-		margin:0 0 0.5rem 0;
+	.opinion h2 {
+		margin: 0 0 0.5rem 0;
+	}
+	.goals img {
+		height: 20rem;
 	}
 }
