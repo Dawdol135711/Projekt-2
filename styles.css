@@ -411,3 +411,38 @@ form input, textarea{
 form .date input{
 	color:var(--color-1)
 }
+form button{
+	display:block;
+	width:fit-content;
+	padding: 0.75rem 2rem;
+	font-family: 'roboto', sans-serif;
+	font-size: 1rem;
+	font-weight: 300;
+	color:var(--color-1);
+	border:2px solid var(--color-1);
+	background-color: var(--color-2);
+	cursor:pointer;
+	margin-bottom:1rem;
+}
+form button:hover{
+	opacity:0.85;
+}
+input:focus,textarea:focus{
+	background-color: var(--color-4);
+}
+footer footer{
+	background-color: var(--color-5);
+	color:var(--color-1);
+}
+footer .wrapper{
+margin:0 auto;
+width:80%;
+max-width:1200px;
+text-align: center;
+padding:3rem;
+font-family: 'open-sans', sans-serif;
+}
+footer span{
+	display:block;
+	padding-top:6rem;
+}
