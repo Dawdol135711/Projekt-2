@@ -50,6 +50,13 @@
 	.goals p{
 		font-size: 1.4rem;
 	}
+	form{
+		display:flex;
+		flex-direction: column;
+		width:80%;
+	}
+	.reservation .heading{
+		width: 80%;}
 }
 @media (max-width: 768px) {
 	.desktop-nav ul {
@@ -138,6 +145,14 @@
 	.goals p{
 		font-size: 1.225rem;
 	}
+	.reservation h2{
+		font-size: 2.5rem;
+		padding:3rem 0 1.5rem 0;
+	}
+	.reservation p{
+		font-size: 1rem;
+		line-height: 1.2;
+	}
 }
 @media (max-width: 380px) {
 	.trainers h2,
@@ -164,5 +179,9 @@
 	}
 	.goals img {
 		height: 20rem;
+	}
+	.reservation h2{
+		font-size: 2rem;
+		padding:2rem 0 1.5rem 0;
 	}
 }
